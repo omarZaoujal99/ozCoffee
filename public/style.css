@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #e5c49f;
+}
+button,
+a {
+  cursor: pointer;
+}
+input,
+textarea {
+  cursor: text;
+}
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+button:active,
+button:focus,
+select:active,
+select:focus {
+  outline: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
